@@ -1,0 +1,154 @@
+﻿html {
+height: 100%;
+}
+.container {  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1.2fr 1.6fr 0.2fr;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+    "top top top"
+    ". . ."
+    "footer footer footer"; 
+}
+
+.footer { 
+grid-area: footer;
+color: gray;
+background-color: rgb(187, 187, 187);
+max-height: 100px;
+}
+
+.top { 
+grid-area: top; 
+}
+.img {
+width: 100%;
+position: absolute;
+}
+.img1 {
+padding-top: 50px;
+padding-left: 700px;
+position: relative;
+}
+body {
+background-color: #F0F7F7;
+}
+.text {
+position: relative;
+font-size: 50px;
+color: white;
+font-family: arial;
+padding-top: 130px;
+padding-left: 750px;
+}
+.text1 {
+position: relative;
+font-size: 27px;
+color: white;
+font-family: arial;
+padding-top: 30px;
+padding-left: 750px;
+}
+.img2 {
+padding-top: 650px;
+padding-left: 280px;
+position: absolute;
+}
+.img3 {
+padding-top: 650px;
+padding-left: 710px;
+position: absolute;
+}
+.img4 {
+padding-top: 650px;
+padding-left: 1200px;
+position: absolute;
+}
+.text2 {
+font-size: 23px;
+font-weight: bold;
+color: black;
+float: right;
+font-family: arial;
+position: relative;
+padding-top: 250px;
+padding-left: 130px;
+text-align: center;
+}
+.text3 {
+font-size: 23px;
+font-weight: bold;
+color: black;
+float: right;
+font-family: arial;
+position: relative;
+padding-top: 250px;
+padding-left: 10px;
+text-align: center;
+}
+.text4 {
+font-size: 23px;
+font-weight: bold;
+color: black;
+float: right;
+font-family: arial;
+position: relative;
+padding-top: 250px;
+padding-left: 20px;
+text-align: center;
+}
+.text5 {
+position: absolute;
+font-size: 23px;
+color: gray;
+font-family: arial;
+padding-left: 100px;
+text-align: left;
+padding-top: 820px;
+padding-right: 960px;
+}
+.text6 {
+position: absolute;
+font-size: 23px;
+color: gray;
+font-family: arial;
+padding-left: 550px;
+text-align: left;
+padding-top: 820px;
+padding-right: 520px;
+}
+.text7{
+position: absolute;
+font-size: 23px;
+color: gray;
+font-family: arial;
+padding-left: 1030px;
+text-align: left;
+padding-top: 820px;
+padding-right: 50px;
+}
+.button1 {
+background:linear-gradient(to bottom, #ffea00 5%, #fff200 100%);
+background-color:#ffea00;
+border-radius:2px;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:28px;
+padding:19px 34px;
+text-decoration:none;
+margin-top: 15px;
+margin-left: 750px;
+position:relative;
+}
+&:hover {
+background:linear-gradient(to bottom, #fff200 5%, #ffea00 100%);
+background-color:#fff200;
+}
+&:active {
+position:relative;
+top:1px;
+}
+ 
